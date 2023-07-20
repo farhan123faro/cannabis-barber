@@ -1,0 +1,698 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap");
+
+#mainDiv {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(images/D1E779C2-5585-48B9-B5B8CA83481D212C_source.webp);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#innerDiv {
+  width: 1150px;
+  height: 555px;
+  background: rgba(0, 0, 0, 0, 8);
+  backdrop-filter: blur(15px);
+  color: white;
+  text-align: center;
+}
+#upperDiv {
+  display: flex;
+  flex: inline;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+#logo {
+  border: solid rgb(212, 176, 84) 4px;
+  color: rgb(212, 176, 84);
+  margin-left: 450px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+#briefcase {
+  color: rgb(212, 176, 84);
+  margin-left: 300px;
+  font-size: 25px;
+  margin-top: 15px;
+}
+#bar {
+  color: rgb(212, 176, 84);
+  font-size: 25px;
+  margin-left: 10px;
+}
+#pDiv {
+  margin-left: 5px;
+  text-align: left;
+}
+#heading {
+  color: rgb(240, 233, 215);
+  font-size: 65px;
+  font-family: "Bacasime Antique", serif;
+}
+
+#btn1 {
+  height: 45px;
+  width: 160px;
+  border-radius: 25px;
+}
+#para {
+  margin-left: 325px;
+  margin-right: 325px;
+}
+/* second section start */
+#div2 {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(35, 67, 45);
+  display: flex;
+}
+#picMDiv {
+  display: flex;
+  justify-content: center;
+}
+#pic1 {
+  width: 230px;
+  height: 400px;
+  background-image: url(images/images.jpg);
+  background-size: cover;
+  border-radius: 20px;
+  margin-left: 150px;
+  margin-top: 75px;
+}
+#pic2 {
+  width: 230px;
+  height: 400px;
+  background-image: url(images/canabis.jpg);
+  background-size: cover;
+  border-radius: 20px;
+  margin-top: 125px;
+  margin-left: 40px;
+}
+#textDiv {
+  margin-left: 35px;
+  margin-top: 75px;
+  margin-right: 150px;
+}
+#btn2 {
+  height: 45px;
+  width: 160px;
+  border-radius: 25px;
+}
+.prag {
+  color: rgb(240, 233, 215);
+}
+#heading2 {
+  font-family: "Bacasime Antique", serif;
+  color: rgb(240, 233, 215);
+  font-size: 65px;
+}
+/* third section start */
+#div3 {
+  width: 100vw;
+  height: 70vh;
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+}
+#childDiv1 {
+  background-size: cover;
+  background-position: center;
+  width: 450px;
+  height: 320px;
+  border-radius: 20px;
+  /* margin-left: 200px; */
+  margin-top: 55px;
+
+  background-image: url(images/470363_28083_XXL.jpg);
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 1),
+    rgba(0, 0, 0, 0)
+  );
+}
+#childDiv2 {
+  background-size: cover;
+  background-position: center;
+  width: 450px;
+  height: 320px;
+  border-radius: 20px;
+  /* margin-left: 20px; */
+  margin-top: 55px;
+  background-image: url(images/images.jpg);
+}
+.childH {
+  font-family: "Bacasime Antique", serif;
+  color: black;
+  font-size: 3rem;
+  margin-left: 40px;
+}
+
+#btn1st {
+  background-color: rgb(181, 141, 73);
+  height: 45px;
+  width: 160px;
+  border-radius: 25px;
+  margin-left: 40px;
+  color: aliceblue;
+}
+#btn2nd {
+  background-color: rgb(181, 141, 73);
+  height: 45px;
+  width: 160px;
+  border-radius: 25px;
+  margin-left: 40px;
+  margin-top: 60px;
+  color: antiquewhite;
+}
+#mH {
+  margin-top: 50px;
+}
+#mH2 {
+  margin-top: 50px;
+}
+/* forth section start */
+#div4 {
+  width: 100vw;
+  height: 140vh;
+  background-color: rgb(147, 189, 85);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.div4Child {
+  width: 20vw;
+  margin-left: 120px;
+}
+.numDiv {
+  background-color: rgb(35, 67, 45);
+  width: 80px;
+  height: 110px;
+  text-align: center;
+  color: white;
+  border-radius: 0px 0px 250px 250px;
+}
+.div4Heading {
+  color: white;
+  margin-top: 10px;
+}
+.div4P {
+  color: white;
+}
+.div4h5 {
+  color: rgb(35, 67, 45);
+}
+/* section 5 start */
+#div5 {
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+}
+#div5H {
+  color: rgb(35, 67, 45);
+  margin-top: 80px;
+  font-size: 65px;
+  font-family: "Bacasime Antique", serif;
+}
+#div5P {
+  color: rgb(35, 67, 45);
+  margin-left: 325px;
+  margin-right: 325px;
+}
+.div5card {
+  border-radius: 15px;
+  width: 250px;
+  height: 300px;
+  margin-left: 10px;
+  box-shadow: 10px 10px 10px 0 gray;
+}
+#divChild {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 60px;
+}
+.div5Img {
+  margin-left: 10px;
+}
+.mainPI {
+  display: flex;
+  flex: inline;
+  margin-top: 50px;
+  margin-left: 10px;
+}
+.paragraf {
+  color: rgb(35, 67, 45);
+}
+.div5Icon {
+  font-size: 2rem;
+  margin-left: 70px;
+  color: rgb(35, 67, 45);
+}
+/* section 6 start */
+#div6 {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(35, 67, 45);
+  padding-top: 80px;
+}
+#d6H1 {
+  color: aliceblue;
+  font-family: "Bacasime Antique", serif;
+  font-size: 65px;
+}
+#d6Para {
+  color: aliceblue;
+}
+#headnPDiv {
+  margin-left: 300px;
+  margin-right: 300px;
+}
+.div6P {
+  color: antiquewhite;
+}
+.div6Hr {
+  color: antiquewhite;
+}
+#div6Child {
+  display: flex;
+  flex: inline;
+  margin-left: 150px;
+  margin-top: 80px;
+}
+.div6CofC {
+  margin-left: 20px;
+  width: 325px;
+}
+#div6ScndChild {
+  display: flex;
+  flex: inline;
+  margin-left: 150px;
+  margin-top: 80px;
+}
+#div6Butn {
+  background-color: rgb(181, 141, 73);
+  height: 45px;
+  width: 160px;
+  border-radius: 25px;
+  margin-top: 50px;
+  margin-left: 600px;
+  color: aliceblue;
+}
+/* section 7 start */
+
+#div7 {
+  width: 100vw;
+  height: 50vh;
+  background-color: antiquewhite;
+  display: flex;
+justify-content: space-evenly;
+}
+#div7Logo {
+  border: solid rgb(212, 176, 84) 4px;
+  color: rgb(212, 176, 84);
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin-left: 200px;
+  margin-top: 100px;
+}
+#div7Child {
+  margin-top: 80px;
+  margin-left: 70px;
+}
+#div7ScndChild {
+  margin-top: 80px;
+  margin-left: 70px;
+}
+.d7Heading {
+  font-family: "Bacasime Antique", serif;
+  color: rgb(35, 67, 45);
+}
+.d7Para {
+  font-size: 20px;
+}
+#parent {
+  display: flex;
+  flex: inline;
+  width: 450px;
+  height: 70px;
+  border-radius: 35px;
+  background-color: rgb(234, 224, 206);
+}
+#child1 {
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 130px;
+}
+#child2 {
+  width: 180px;
+  height: 70px;
+  border-radius: 35px;
+  background-color: rgb(35, 67, 45);
+  margin-left: 150px;
+}
+#div7CP2 {
+  margin-left: 40px;
+  margin-top: 20px;
+  color: white;
+}
+#div7CP1 {
+  color: gray;
+}
+#lastPara {
+  margin-top: 23px;
+}
+
+/* section 8 start */
+#div8 {
+  width: 100vw;
+  height: 25vh;
+  background-color: rgb(212, 176, 84);
+  padding-top: 70px;
+}
+#footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+}
+/* media queries */
+
+@media screen and (min-width:00px) and (max-width: 576px) {
+  #innerDiv {
+    width: 450px;
+    height: 400px;
+  }
+  #upperDiv {
+    margin-top: 30px;
+    margin-left: 20px;
+  }
+  #logo {
+    margin-left: 140px;
+    width: 50px;
+    height: 50px;
+  }
+  #briefcase {
+    margin-left: 80px;
+  }
+  #heading {
+    font-size: 30px;
+  }
+  #h4 {
+    font-size: 17px;
+  }
+  #para {
+    display: none;
+  }
+  #div2 {
+    display: block;
+    height: 240vw;
+  }
+  #picMDiv {
+    margin-right: 140px;
+  }
+  #pic1{
+    width: 400px;
+  }
+  #pic2 {
+    width: 400px;
+  }
+  #textDiv {
+    margin-left: 140px;
+  }
+  #div3 {
+    display: block;
+    height: 140vh;
+    margin-left: 70px;
+  }
+  #div4 {
+    height: 260vh;
+    display: block;
+  }
+  .div4Child {
+    margin-left: 40px;
+    width: 500px;
+  }
+  #div5H {
+    font-size: 60px;
+  }
+  #div5P {
+    width: 350px;
+    margin-left: 105px;
+  }
+  #cardTwo {
+    display: none;
+  }
+  #cardOne {
+    display: none;
+  }
+
+  #headnPDiv {
+    width: 300px;
+    margin-left: 150px;
+  }
+  #d6H1 {
+    font-size: 50px;
+  }
+  #div6Child {
+    width: 500px;
+    margin-left: 60px;
+  }
+  #div6ScndChild {
+    width: 500px;
+    margin-left: 60px;
+    margin-top: 50px;
+  }
+  #div7 {
+    display: block;
+    height: 150vh;
+    padding-top: 30px;
+  }
+ 
+  #div7ScndChild {
+    width: 500px;
+  }
+  #footer {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  #div6Butn{
+    margin-left: 300px;
+  }
+}
+@media screen and (min-width:576px) and (max-width: 768px) {
+  #innerDiv{
+    width:600px ;
+    height: 480px;
+  }
+  #logo{
+    margin-left: 220px;
+    height: 80px;
+  }
+  #briefcase{
+    margin-left: 100px;
+  }
+  #para{
+    display: none;
+  }
+  #div2{
+    display: block;
+    height: 190vh;
+  }
+  #textDiv{
+    margin-left: 100px;
+  }
+  #div3{
+    display: block;
+    height: 135vh;
+  }
+  #childDiv1{
+    margin-left: 150px;
+
+  }
+  #childDiv2{
+    margin-left: 150px;
+  }
+  #div4{
+    display: block;
+    height: 280vh;
+  }
+  .div4Child{
+    width: 400px;
+  }
+  #div5P{
+    width: 400px;
+    margin-left: 190px;
+  }
+  #cardTwo{
+    display: none;
+  }
+  #headnPDiv{
+    width: 500px;
+    margin-left: 130px;
+  }
+  #div6{
+    height: 150vh;
+  }
+#div6Child{
+  margin-left: 70px;
+margin-right: 70px;
+}
+#div6ScndChild{
+  margin-left: 70px;
+margin-right: 70px;
+margin-bottom: 170px;
+}
+#div6Butn{
+ margin-left: 300px;
+ margin-top: -70px;
+}
+#div7{
+  display: block;
+  height: 150vh;
+  padding-top: 10px;
+}
+#div7Logo{
+  margin-left: 300px;
+}
+
+}
+@media screen and (min-width:768px) and (max-width: 992px) {
+  #innerDiv{
+    width:750px ;
+    height: 500px;
+    margin-right: 100px;
+  }
+  #logo{
+    margin-left: 300px;
+    height: 80px;
+  }
+  #briefcase{
+    margin-left: 170px;
+  }
+  #para{
+    display: none;
+  }
+  #div2{
+    display: block;
+    height: 180vh;
+  }
+  #picMDiv{
+    margin-left: 40px;
+  }
+  #div3{
+    display: block;
+    height: 130vh;
+  }
+  #childDiv1{
+    margin-left: 200px;
+  }
+  #childDiv2{
+    margin-left: 200px;
+  }
+  #div4{
+    display: block;
+    height: 255vh;
+  }
+  .div4Child{
+    width: 600px;
+  }
+  #div5H{
+    margin-right: 140px;
+  }
+  #div5P{
+    margin-left: 190px;
+  }
+  #divChild{
+    margin-right: 120px;
+
+  }
+  #headnPDiv{
+    margin-left: 180px;
+  }
+  #div6{
+    height: 130vh;
+  }
+  #div6Child{
+    margin-left: 80px;
+    width: 700px;
+  }
+  #div6ScndChild{
+    margin-left: 80px;
+    width: 700px;
+
+    
+}
+#div6Butn{
+  margin-left: 380px;
+}
+#div7{
+  display: block;
+  height: 160vh;
+  padding-top: 40px;
+}
+#div7Logo{
+  margin-left: 380px;
+}
+#footer{
+  margin-right: 100px;
+}
+}
+@media screen and (min-width:992px) and (max-width: 1200px) {
+  #innerDiv{
+    width: 1000px;
+    height: 500px;
+    margin-right: 40px;
+  }
+  #logo{
+    margin-left: 350px;
+  }
+  #briefcase{
+    margin-left: 150px;
+  }
+  #para{
+    width: 600px;
+    margin-left: 170px;
+  }
+  #div2{
+    height: 120vh;
+    justify-content: space-evenly;
+  }
+  #picMDiv{
+    margin-right: 10px;
+  }
+ #div3{
+  height: 75vh;
+ }
+ #div4{
+  height: 160vh;
+ }
+ #div6{
+  height: 120vh;
+ }
+ #div6Child{
+  margin-left: 55px;
+ }
+ #div6ScndChild{
+  margin-left: 55px;
+ }
+ #div6Butn{
+  margin-left: 500px;
+ }
+ #div7{
+  height: 60vh;
+ }
+ #div7Logo{
+  margin-left: 50px;
+ }
+}
